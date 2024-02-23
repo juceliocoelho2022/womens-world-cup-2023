@@ -44,7 +44,7 @@ tasks.withType<KotlinCompile> {
 	}
 }
 tasks.jar {
-	manifest.attributes["Main-Class"] = "me.dio.wwc.Application"
+	manifest.attributes["Main-Class"] = "com.Dev_Jucelio.womensworldcup2023.Application"
 }
 
 tasks.withType<Test> {
